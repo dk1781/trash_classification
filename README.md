@@ -28,4 +28,4 @@ trash-classification/
 └── ...
 ```
 ## Pre-trained Models
-The pre-trained models are available to use on the (https://huggingface.co/dk178/Trash_classification)
+The pre-trained models are available to use on the [Hugging Face](https://huggingface.co/dk178/Trash_classification)
