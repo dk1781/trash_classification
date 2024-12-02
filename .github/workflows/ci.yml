@@ -25,4 +25,4 @@ jobs:
 
     - name: Run the model
       run: |
-        jupyter nbconvert --to notebook --execute trash_classification.ipynb
+        jupyter nbconvert --to notebook --execute Trash_classification.ipynb
