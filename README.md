@@ -1,6 +1,6 @@
 
 # Trash Classification
-In this project, I aim to classify trash images into six distinct categories using a Convolutional Neural Network (CNN). The model is trained on a dataset of labeled trash images, and its performance is tracked and evaluated using the Weights & Biases (wandb) experiment tracking tool.
+This project aim to classify trash images into six distinct categories using a Convolutional Neural Network (CNN). The model is trained on a dataset of labeled trash images, and its performance is tracked and evaluated using the Weights & Biases (wandb) experiment tracking tool.
 
 ## Dataset
 
