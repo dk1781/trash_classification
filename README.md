@@ -8,7 +8,7 @@ The dataset used for this project is **TrashNet**, a labeled collection of image
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- Python 3.9 or higher
 - Git
 - [Hugging Face Datasets](https://github.com/huggingface/datasets), TensorFlow, and other dependencies listed in `requirements.txt`
 
