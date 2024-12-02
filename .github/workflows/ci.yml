@@ -22,7 +22,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install jupyter nbconvert
         pip install -r requirements.txt
+        
+    - name: Set WandB API Key
+      env:
+        WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
+      run: echo "Weights & Biases API Key set."
 
     - name: Run the model
+      env:
+        WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
       run: |
         jupyter nbconvert --to notebook --execute trash_classification.ipynb
