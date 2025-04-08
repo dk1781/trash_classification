@@ -32,4 +32,4 @@ jobs:
       env:
         WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
       run: |
-        jupyter nbconvert --to notebook --execute trash_classification.ipynb
+            jupyter nbconvert --to notebook --execute --ExecutePreprocessor.store_widget_state=True --output executed_notebook trash_classification.ipynb
